@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title> YouTube Thumbnail Generator</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript">
+    
+    
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const url = urlParams.get('url');
+    //window.alert(url);
+
+    var data = url.split ("v=");
+    var code=data[1];
+    var base_url='https://img.youtube.com/vi/';
+
+    var max=base_url+code+'/maxresdefault.jpg';
+    var medium=base_url+code+'/mqdefault.jpg';
+    var high=base_url+code+'/hqdefault.jpg';
+    //window.alert(max);
+   // window.alert(max);
+
+    window.onload = function(){
+      
+        var maxHTML='<center><h2>Max Resolution (1080p & Above)</h2><br><a href='+max+'><img src='+max+' download='+max+'></img></a><br></center>';
+        var mediumHTML='<center><h2>Medium Resolution </h2><br><a href='+medium+'><img src='+medium+' download='+max+'></img></a></center>';
+        var highHTML='<center><h2>High Resolution</h2><br><a href='+high+'><img src='+high+' download='+max+'></img></a></center>';
+        var ALL=mediumHTML+highHTML+maxHTML;
+
+
+
+
+
+        document.getElementById('max').innerHTML=ALL;
+    }
+
+
+
+  
+  
+
+    </script>
+</head>
+<body>
+    <br>
+<center>
+    <h1>Right click on image and click "Save image as "</h1>
+</center>
+<br>
+    
+    <div id="max">
+
+
+    </div>
+
+<br><br>
+<center>
+    <h4>Copyright &copy; 2020 <a href="https://www.justinclicks.com">JustInClicks.com</a></h4>
+</center>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
