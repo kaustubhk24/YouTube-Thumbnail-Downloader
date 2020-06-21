@@ -3,7 +3,7 @@
 The project is live at https://go.justinclicks.com/thumbnail-down/
 You can use this for downloading Thuumbnails.
 
-# If You want contribute
+# If You want to contribute
 
 Just make pull request. I will accept that.
 
