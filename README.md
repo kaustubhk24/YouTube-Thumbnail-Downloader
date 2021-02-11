@@ -1,6 +1,6 @@
 # YouTube Thumbnail Downloader
 
-The project is live at https://go.justinclicks.com/thumbnail-down/
+The project is live at https://youtube-thumbnail-downloader.justinclicks.com/
 You can use this for downloading Thuumbnails.
 
 # If You want to contribute
