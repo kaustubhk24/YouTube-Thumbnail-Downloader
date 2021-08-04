@@ -1,6 +1,7 @@
 # YouTube Thumbnail Downloader
 
-The project is live at https://youtube-thumbnail-downloader.justinclicks.com/
+The project is live at https://kaustubhk24.github.io/YouTube-Thumbnail-Downloader/
+
 You can use this for downloading Thuumbnails.
 
 # If You want to contribute
@@ -8,4 +9,4 @@ You can use this for downloading Thuumbnails.
 Just make pull request. I will accept that.
 
 
-Copyright &copy; 2020 JustInClicks.com
+Copyright &copy; 2020 @KaustubhK24
